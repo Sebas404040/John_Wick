@@ -45,3 +45,10 @@ john-wick-fanpage/
 
 ```bash
 git clone https://github.com/tu-usuario/john-wick-fanpage.git
+
+```
+## Maquetacion y Diseño
+
+### 1. Hero page
+
+![Home ](./Readme_images/Hero%20page.png)
