@@ -52,3 +52,18 @@ git clone https://github.com/tu-usuario/john-wick-fanpage.git
 ### 1. Hero page
 
 ![Home ](./Readme_images/Hero%20page.png)
+
+### 2. Characters page
+
+![Home ](./Readme_images/Personajes-1.png)
+
+### 3. Weapons page
+
+![Home ](./Readme_images/Armeria-2.png)
+
+### 4. Movies page
+
+![Home ](./Readme_images/Movies-3.png)
+
+
+
