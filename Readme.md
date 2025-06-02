@@ -65,5 +65,21 @@ git clone https://github.com/tu-usuario/john-wick-fanpage.git
 
 ![Home ](./Readme_images/Movies-3.png)
 
+### 5. History page
+
+![Home ](./Readme_images/Biografia-5.png)
+
+### 6. Movie information page
+
+![Home ](./Readme_images/Secion%20pelicula-6.png)
+
+### 7. Weapon information page
+
+![Home ](./Readme_images/Weapon%20info-7.png)
+
+### 8. Character information page
+
+![Home ](./Readme_images/Character%20info-8.png)
+
 
 
