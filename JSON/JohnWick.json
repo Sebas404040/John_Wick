@@ -1,0 +1,14 @@
+{
+    "nombre": "John Wick",
+    "alias": "Baba Yaga",
+    "actor": "Keanu Reeves",
+    "profesion": "Asesino retirado",
+    "nacionalidad": "Estadounidense",
+    "estado": "Fallecido (según John Wick 4)",
+    "descripcion": "John Wick es un asesino legendario que se retiró tras casarse. Su regreso es provocado por la muerte de su esposa y el robo de su auto, junto con el asesinato de su perro, un último regalo de ella.",
+    "imagen": "img/john-wick-bio.jpg",
+    "arma_favorita": ["Pit Viper", "Glock 34", "TTI TR-1", "Katana"],
+    "peliculas": ["John Wick", "John Wick 2", "John Wick 3", "John Wick 4"],
+    "frase": "Yeah, I'm thinking I'm back."
+  }
+  
