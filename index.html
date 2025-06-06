@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./CSS/HeroStyle.css">
 </head>
 <body>
-    <div class="rain"></div>
     <header>
         <span class="header_title">JOHN WICK</span>
         <nav>
-            <span>Biografía</span>
-            <span>Peliculas</span>
-            <span>Armería</span>
-            <span>Personajes</span>
+            <span class="opcion">Biografía</span>
+            <span class="opcion">Peliculas</span>
+            <span class="opcion">Armería</span>
+            <span class="opcion">Personajes</span>
         </nav>
     </header>
     <main>
-        <span id="main_phrase">People keep asking if I'm back... Yeah, I'm thinking I'm back</span>
-        <button id="main_bottom">Conoce la historia</button>
+        <div class="hero">
+            <div class="rain-container"></div>
+            <div class="hero-content">
+                <span id="main_phrase">People keep asking if I'm back... Yeah, I'm thinking I'm back</span>
+                <button id="main_bottom">Conoce la historia</button>
+            </div>
+        </div>
     </main>
+    <script type="module" src="./prueba.js"></script>
 </body>
 </html>

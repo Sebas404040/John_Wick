@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Monserrat";
+    src: url("../fonts/Montserrat-BoldItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("../fonts/PlayfairDisplay-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url("../fonts/WorkSans-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../posters/Background_image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+  
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.rain-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 1;
+}
+  
+.drop {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: fall linear infinite;
+    opacity: 0.5;
+    border-radius: 1px;
+}
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header_title {
+    font-family: "Monserrat";
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    font-family: "Work Sans";
+    font-size: 1.2rem;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main_phrase {
+    font-family: "Playfair";
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#main_bottom {
+    font-family: "Work Sans";
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    margin-top: 5rem;
+    background-color: black;
+    border: 5px solid rgb(25, 0, 255);
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px rgba(25, 0, 255, 0.5);
+}
