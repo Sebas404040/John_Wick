@@ -25,7 +25,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
   
 .hero-content {
@@ -72,12 +72,14 @@
   }
   
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
 }
+
 
 .header_title {
     font-family: "Monserrat";
@@ -130,20 +132,25 @@ body {
 }
 
 .search_section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
 }
 
+
 input {
-    background-color: aliceblue;
-    font-family: "Work Sans";
-    font-size: 24px;
-    border-radius: 30px;
-    width: 1500px;
-    height: 45px;
-    margin-bottom: 20px;
+  background-color: aliceblue;
+  font-family: "Work Sans";
+  font-size: 24px;
+  border-radius: 30px;
+  height: 45px;
+  width: 100%;              /* Ocupará todo el espacio disponible */
+  max-width: 600px;         /* Pero nunca más que esto */
+  box-sizing: border-box;   /* Incluye padding y borde en el ancho */
 }
+
 
 #characters_section {
   display: grid;
