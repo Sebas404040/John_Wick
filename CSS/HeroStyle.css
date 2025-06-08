@@ -146,9 +146,9 @@ input {
   font-size: 24px;
   border-radius: 30px;
   height: 45px;
-  width: 100%;              /* Ocupará todo el espacio disponible */
-  max-width: 600px;         /* Pero nunca más que esto */
-  box-sizing: border-box;   /* Incluye padding y borde en el ancho */
+  width: 100%;              
+  max-width: 600px;         
+  box-sizing: border-box;  
 }
 
 
@@ -177,4 +177,31 @@ input {
 
 .character_card:hover .character-name {
   bottom: 0;
+}
+
+/* CSS para la weapons page */
+
+.weapon_image {
+  width: 20%;
+}
+
+.weapon_card {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border: 4px solid rgb(255, 0, 255);
+  color: rgb(255, 255, 255);
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(255, 0, 255);
+}
+
+#weapons_total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: "Monserrat";
 }
