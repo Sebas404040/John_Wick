@@ -205,3 +205,37 @@ input {
   gap: 40px;
   font-family: "Monserrat";
 }
+
+/* CSS para la movies page */
+
+.poster_JW {
+  width: 90%;
+}
+
+#main_movies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.poster_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster_section:hover {
+  transform: scale(1.2);
+}
+
+hr {
+  height: 10px;
+  background-color: rgb(242, 0, 255);
+  border-radius: 20px;
+  border: rgb(221, 0, 255) ;
+  box-shadow: 1px 3px 0.1px rgb(144, 0, 132);
+}
