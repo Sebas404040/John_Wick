@@ -124,7 +124,7 @@ nav {
     background-color: black;
     border: 5px solid rgb(25, 0, 255);
     border-radius: 30px;
-    box-shadow: 7px 7px 10px rgba(25, 0, 255, 0.5);
+    box-shadow: 0px 0px 10px rgba(25, 0, 255, 0.5);
 }
 
 /*CSS para la character page (recordar poner la informacion de los personajes en los json)*/
@@ -201,7 +201,7 @@ input {
   align-items: center;
   gap: 20px;
   border-radius: 20px;
-  box-shadow: 10px 10px 5px rgb(255, 0, 255);
+  box-shadow: 0px 0px 30px rgb(255, 0, 255);
 }
 
 #weapons_total {
@@ -244,7 +244,7 @@ hr {
   background-color: rgb(242, 0, 255);
   border-radius: 20px;
   border: rgb(221, 0, 255) ;
-  box-shadow: 1px 3px 0.1px rgb(144, 0, 132);
+  box-shadow: rgb(255, 0, 255) 0px 0px 20px;
 }
 
 /*CSS para la history page */
@@ -268,7 +268,7 @@ hr {
   font-family: "Monserrat";
 }
 
-/*CSS para la Movie informaction page*/
+/*CSS para la Movie information page*/
 
 .section_info {
   width: 80%;
@@ -350,3 +350,24 @@ hr {
   border-radius: 6px;
 }
 
+/* CSS para la character information page */
+
+.general_character {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+  background-color: #161616;
+  padding: 50px;
+  box-shadow: #00bfff 0px 0px 20px;
+}
+
+.title_character {
+  color: aliceblue;
+  font-size: 1.5rem;
+  display: flex;
+  font-family: "Monserrat";
+}
