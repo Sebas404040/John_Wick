@@ -1,11 +1,13 @@
-fetch("../JSON/JohnWick.json")
+// JavaScript adaptado para character_info.html
+
+fetch('../JSON/JohnWick.json')
   .then(response => response.json())
   .then(data => {
+    const info = document.getElementById('info');
 
-    // Texto
-    const textContainer = document.getElementById('johnwick_text');
-    textContainer.innerHTML = `
-      <h2>${data.name} <small>(${data.alias})</small></h2>
+
+    info.innerHTML = `
+      <p><strong>Alias:</strong> ${data.alias}</p>
       <p><strong>Ocupación:</strong> ${data.occupation}</p>
       <p><strong>Afiliación:</strong> ${data.affiliation}</p>
       <p><strong>Nacionalidad:</strong> ${data.nationality}</p>
@@ -20,7 +22,10 @@ fetch("../JSON/JohnWick.json")
       <ul>
         ${data.weapons.map(weapon => `<li>${weapon}</li>`).join('')}
       </ul>
+    `;
 
+
+    descripcion_JW.inner =` 
       <h3>Descripción</h3>
       <p>${data.description.replace(/\n/g, "<br>")}</p>
     `;
@@ -28,3 +33,4 @@ fetch("../JSON/JohnWick.json")
   .catch(error => {
     console.error('Error al cargar el perfil:', error);
   });
+
