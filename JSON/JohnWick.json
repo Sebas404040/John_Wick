@@ -1,14 +1,22 @@
 {
-    "nombre": "John Wick",
-    "alias": "Baba Yaga",
-    "actor": "Keanu Reeves",
-    "profesion": "Asesino retirado",
-    "nacionalidad": "Estadounidense",
-    "estado": "Fallecido (según John Wick 4)",
-    "descripcion": "John Wick es un asesino legendario que se retiró tras casarse. Su regreso es provocado por la muerte de su esposa y el robo de su auto, junto con el asesinato de su perro, un último regalo de ella.",
-    "imagen": "img/john-wick-bio.jpg",
-    "arma_favorita": ["Pit Viper", "Glock 34", "TTI TR-1", "Katana"],
-    "peliculas": ["John Wick", "John Wick 2", "John Wick 3", "John Wick 4"],
-    "frase": "Yeah, I'm thinking I'm back."
-  }
-  
+  "name": "John Wick",
+  "alias": "Baba Yaga",
+  "occupation": "Asesino profesional (retirado)",
+  "affiliation": "Alta Mesa, Continental",
+  "nationality": "Estadounidense",
+  "status": "Activo",
+  "skills": [
+    "Artes marciales mixtas",
+    "Tiro de precisión",
+    "Combate con armas blancas",
+    "Estrategia táctica",
+    "Conducción evasiva"
+  ],
+  "weapons": [
+    "Pistola Heckler & Koch P30L",
+    "Shotgun Kel-Tec KSG",
+    "Rifle de asalto TTI TR-1",
+    "Lápiz (sí, un lápiz)"
+  ],
+  "description": "John Wick, también conocido en el submundo como Baba Yaga, no es un asesino cualquiera. Es la leyenda entre leyendas, el hombre que con solo su nombre puede congelar una habitación entera de criminales. Fue el ejecutor más temido por las organizaciones del crimen internacional, conocido por su eficacia quirúrgica, su precisión sobrenatural y su inquebrantable determinación.\n\nDurante años, Wick sirvió al High Table, realizando tareas imposibles con una lealtad silenciosa y un código moral oculto bajo capas de sangre. Cuando finalmente se retiró, lo hizo por amor: por su esposa Helen, quien le ofreció un atisbo de redención y humanidad. Pero su paz fue efímera. La muerte de Helen, seguida por el cruel robo de lo único que le quedaba de ella —su cachorro Daisy— desató un infierno que nadie pudo detener.\n\nJohn Wick no pelea por venganza: pelea por memoria, amor y principios. Su regreso no fue una amenaza, fue una sentencia. Armado con su icónico traje a medida, su pistola personalizada y una mente estratégica incomparable, John convirtió la ciudad en su campo de batalla. Lo enfrentaron mafias rusas, contratos internacionales, asesinos entrenados... y todos cayeron.\n\nFrío, meticuloso, imparable. Cada golpe, cada disparo, cada decisión que toma está cargada de una intensidad casi mitológica. Pero John no es solo una máquina de matar: es un hombre roto, forjado por la pérdida, impulsado por la memoria, y sostenido por un código que ni el caos del crimen puede quebrar.\n\nJohn Wick es la historia de lo que ocurre cuando le quitas todo a un hombre… excepto su voluntad."
+}
