@@ -4,33 +4,58 @@ fetch('../JSON/JohnWick.json')
   .then(response => response.json())
   .then(data => {
     const info = document.getElementById('info');
-    const DescripcionJW = document.getElementById("DescripcionJW");
+    const DescripcionJW = document.getElementById('DescripcionJW');
 
+    info.textContent = '';
+    DescripcionJW.textContent = '';
 
-    info.innerHTML = `
-      <p><strong>Alias:</strong> ${data.alias}</p>
-      <p><strong>Ocupación:</strong> ${data.occupation}</p>
-      <p><strong>Afiliación:</strong> ${data.affiliation}</p>
-      <p><strong>Nacionalidad:</strong> ${data.nationality}</p>
-      <p><strong>Estado:</strong> ${data.status}</p>
+    function createInfoParagraph(label, value) {
+      const p = document.createElement('p');
+      const strong = document.createElement('strong');
+      strong.textContent = `${label}: `;
+      p.appendChild(strong);
+      p.append(value);
+      return p;
+    }
+    info.appendChild(createInfoParagraph('Alias', data.alias));
+    info.appendChild(createInfoParagraph('Ocupación', data.occupation));
+    info.appendChild(createInfoParagraph('Afiliación', data.affiliation));
+    info.appendChild(createInfoParagraph('Nacionalidad', data.nationality));
+    info.appendChild(createInfoParagraph('Estado', data.status));
 
-      <h3>Habilidades</h3>
-      <ul>
-        ${data.skills.map(skill => `<li>${skill}</li>`).join('')}
-      </ul>
+    const skillsTitle = document.createElement('h3');
+    skillsTitle.textContent = 'Habilidades';
+    info.appendChild(skillsTitle);
 
-      <h3>Armas favoritas</h3>
-      <ul>
-        ${data.weapons.map(weapon => `<li>${weapon}</li>`).join('')}
-      </ul>
-    `;
+    const skillsList = document.createElement('ul');
+    data.skills.forEach(skill => {
+      const li = document.createElement('li');
+      li.textContent = skill;
+      skillsList.appendChild(li);
+    });
+    info.appendChild(skillsList);
 
+    const weaponsTitle = document.createElement('h3');
+    weaponsTitle.textContent = 'Armas favoritas';
+    info.appendChild(weaponsTitle);
 
-    DescripcionJW.innerHTML =` 
-      <p>${data.description.replace(/\n/g, "<br>")}</p>
-    `;
+    const weaponsList = document.createElement('ul');
+    data.weapons.forEach(weapon => {
+      const li = document.createElement('li');
+      li.textContent = weapon;
+      weaponsList.appendChild(li);
+    });
+    info.appendChild(weaponsList);
+
+    const descriptionParagraphs = data.description.split('\n');
+    descriptionParagraphs.forEach(line => {
+      const p = document.createElement('p');
+      p.textContent = line;
+      DescripcionJW.appendChild(p);
+    });
   })
   .catch(error => {
     console.error('Error al cargar el perfil:', error);
   });
+
 
