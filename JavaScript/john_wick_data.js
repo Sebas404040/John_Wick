@@ -4,6 +4,7 @@ fetch('../JSON/JohnWick.json')
   .then(response => response.json())
   .then(data => {
     const info = document.getElementById('info');
+    const DescripcionJW = document.getElementById("DescripcionJW");
 
 
     info.innerHTML = `
@@ -25,8 +26,7 @@ fetch('../JSON/JohnWick.json')
     `;
 
 
-    descripcion_JW.inner =` 
-      <h3>Descripción</h3>
+    DescripcionJW.innerHTML =` 
       <p>${data.description.replace(/\n/g, "<br>")}</p>
     `;
   })

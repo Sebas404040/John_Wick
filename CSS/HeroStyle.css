@@ -278,6 +278,12 @@ hr {
   font-family: "Work Sans";
 }
 
+#DescripcionJW {
+  color: white;
+  font-family: "Work Sans";
+  padding: 5%;
+}
+
 /*CSS para la Movie information page*/
 
 .section_info {
