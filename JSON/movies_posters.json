@@ -1,0 +1,16 @@
+{
+    "movies": [
+        {
+            "poster": "../posters/Poster_JW1.png"
+        },
+        {
+            "poster": "../posters/Poster_JW2.png"
+        },
+        {
+            "poster": "../posters/Poster_JW3.png"
+        },
+        {
+            "poster": "../posters/Poster_JW4.png"
+        }
+    ]
+}
