@@ -23,6 +23,7 @@
   },
   {
     "id": "jw-015",
+    "imagen": "../photos/Bowery.png",
     "name": "The Bowery King",
     "alias": "Rey de los indigentes",
     "occupation": "Líder de una red subterránea de inteligencia",
@@ -45,6 +46,7 @@
   },
   {
     "id": "jw-016",
+    "imagen": "../photos/Caine.png",
     "name": "Caine",
     "alias": "—",
     "occupation": "Asesino a sueldo",
@@ -68,6 +70,7 @@
   },
   {
     "id": "jw-017",
+    "imagen": "../photos/Cassian.png",
     "name": "Cassian",
     "alias": "Guardaespaldas de Santino",
     "occupation": "Asesino profesional",
@@ -90,6 +93,7 @@
   },
   {
     "id": "jw-018",
+    "imagen": "../photos/Charon.png",
     "name": "Charon",
     "alias": "El Concierge",
     "occupation": "Conserje del Hotel Continental Nueva York",
@@ -112,6 +116,7 @@
   },
   {
     "id": "jw-019",
+    "imagen": "../photos/Ilustre.png",
     "name": "El Anciano",
     "alias": "The Elder",
     "occupation": "Líder supremo de la Alta Mesa",
@@ -128,10 +133,11 @@
       "Cuchillo ceremonial",
       "Guardias armados"
     ],
-    "description": "El Anciano, conocido como The Elder, es la figura más enigmática y poderosa del universo de John Wick. Vive más allá del alcance de las ciudades, en el desierto, donde pocos llegan. Representa la cúspide de la jerarquía criminal global.\n\nMás que un hombre, El Anciano es un símbolo: la encarnación del equilibrio entre caos y orden en el submundo. Aquellos que llegan a él deben hacerlo perdiéndose —literalmente y figurativamente— para pedir redención, dirección... o sentencia.\n\nJohn Wick lo busca para saldar su deuda con la Alta Mesa, y aunque le ofrece una segunda oportunidad, su misericordia viene con un costo: le exige cortar su vínculo con todo lo que ama. Finalmente, su destino es sellado por Wick, quien lo ve ya no como guía, sino como pieza corrupta del sistema que juró destruir."
+    "description": "El Anciano, conocido como The Elder, es la figura más enigmática y poderosa del universo de John Wick..."
   },
   {
     "id": "jw-020",
+    "imagen": "../photos/josef_tarasov.png",
     "name": "Josef Tarasov",
     "alias": "—",
     "occupation": "Hijo del jefe de la mafia rusa",
@@ -147,10 +153,11 @@
       "Pistola semiautomática",
       "Armas de sus guardaespaldas"
     ],
-    "description": "Josef Tarasov es el catalizador de toda la saga de John Wick. Arrogante, impulsivo y sin respeto por la vieja guardia del crimen, Josef comete un error fatal: roba el auto de John Wick y mata a su cachorro, sin saber quién es su víctima.\n\nHijo del mafioso Viggo Tarasov, Josef representa la decadencia de la nueva generación criminal: sin códigos, sin respeto, y sin visión. Cuando su padre descubre lo que ha hecho, entiende que ha condenado a toda su familia.\n\nJohn lo persigue con la furia de un espectro, implacable y metódico. Josef intenta esconderse, rodearse de protección, incluso mendigar por su vida… pero nada detiene la tormenta que desató. Su muerte no fue una venganza: fue una lección escrita con sangre."
+    "description": "Josef Tarasov es el catalizador de toda la saga de John Wick..."
   },
   {
     "id": "jw-021",
+    "imagen": "../photos/Koji.png",
     "name": "Shimazu Koji",
     "alias": "Gerente del Continental Osaka",
     "occupation": "Gerente y protector del Continental Osaka",
@@ -168,10 +175,11 @@
       "Shuriken",
       "Armas tradicionales japonesas"
     ],
-    "description": "Koji Shimazu es el honorable gerente del Hotel Continental en Osaka y padre de Akira. Fiel al antiguo código de respeto y hospitalidad, su lealtad está con sus principios… y con sus viejos amigos, como John Wick.\n\nCuando el High Table ordena la ejecución de Wick, Koji se enfrenta a un dilema imposible: seguir las órdenes de la Alta Mesa o proteger a un amigo. Elige la lealtad personal, desatando un asedio mortal en su hotel.\n\nLucha hasta el último aliento, con katana en mano, enfrentando a Caine —otro viejo amigo obligado a obedecer. Koji muere de pie, como vivió: con honor, valentía y sin arrepentimiento."
+    "description": "Koji Shimazu es el honorable gerente del Hotel Continental en Osaka..."
   },
   {
     "id": "jw-022",
+    "imagen": "../photos/Magistrada.png",
     "name": "La Adjudicadora",
     "alias": "The Adjudicator",
     "occupation": "Ejecutora de la Alta Mesa",
@@ -188,10 +196,11 @@
       "Guardias de élite",
       "Poder institucional"
     ],
-    "description": "La Adjudicadora es una figura fría, meticulosa y absolutamente leal a la Alta Mesa. No mata, pero su presencia significa muerte. Actúa como jueza, fiscal y ejecutora de la voluntad del sistema.\n\nSin emociones, sin piedad, y sin margen de negociación, impone sanciones a quienes rompen las reglas: Winston, Bowery King, incluso John Wick. Su lenguaje es el del deber, su poder no viene de armas, sino de autoridad implacable.\n\nRepresenta el sistema que John Wick busca destruir: una red de burocracia letal que anula la voluntad individual en nombre del control. Su destino sigue incierto, pero su sombra aún pesa sobre quienes la enfrentaron."
+    "description": "La Adjudicadora es una figura fría, meticulosa y absolutamente leal a la Alta Mesa..."
   },
   {
     "id": "jw-023",
+    "imagen": "../photos/Marcus.png",
     "name": "Marcus",
     "alias": "Mentor de John Wick",
     "occupation": "Francotirador y asesino profesional retirado",
@@ -210,10 +219,11 @@
       "Pistola con silenciador",
       "Cuchillo de combate"
     ],
-    "description": "Marcus fue un antiguo asesino profesional y uno de los pocos que podía igualar la precisión de John Wick. Más que colega, fue su mentor y amigo. A pesar de haber aceptado inicialmente un contrato para asesinar a Wick, decide protegerlo desde las sombras.\n\nCon su rifle de francotirador, salva a John en múltiples ocasiones sin ser detectado. Pero su acto de traición al contrato le cuesta caro: es capturado y ejecutado por Viggo Tarasov.\n\nSu muerte marca profundamente a John y revela que, incluso en un mundo donde todos matan por dinero, todavía hay quienes actúan por amistad. Marcus fue un profesional… pero murió como un hombre leal."
+    "description": "Marcus fue un antiguo asesino profesional y uno de los pocos que podía igualar la precisión de John Wick..."
   },
   {
     "id": "jw-024",
+    "imagen": "../photos/Marques.png",
     "name": "Vincent de Gramont",
     "alias": "El Marqués",
     "occupation": "Miembro de la Alta Mesa",
@@ -230,10 +240,11 @@
       "Guardias de élite",
       "Poder de la Alta Mesa"
     ],
-    "description": "El Marqués Vincent de Gramont es un miembro de alto rango de la Alta Mesa y el principal antagonista de *John Wick: Capítulo 4*. Ambicioso y despiadado, representa una nueva generación de liderazgo más autoritaria y ostentosa dentro del sistema.\n\nUtiliza todos los recursos de la Alta Mesa para cazar y destruir a John Wick: destruye el Continental de Nueva York, degrada a Winston, y manipula a Caine para cumplir su voluntad. Enmascara su crueldad con diplomacia, pero no duda en recurrir a la violencia extrema cuando lo cree necesario.\n\nSu arrogancia lo lleva a aceptar un duelo de honor contra Wick, creyendo que puede controlarlo todo. Pero subestima al hombre que ha sobrevivido a lo imposible. Su final es tan elegante como merecido: derrotado por su propia soberbia."
+    "description": "El Marqués Vincent de Gramont es un miembro de alto rango de la Alta Mesa..."
   },
   {
     "id": "jw-025",
+    "imagen": "../photos/Nobody.png",
     "name": "Mr. Nobody",
     "alias": "El Rastreador",
     "occupation": "Cazarrecompensas",
@@ -252,10 +263,11 @@
       "Cuchillo táctico",
       "Perro entrenado en combate"
     ],
-    "description": "Mr. Nobody, también llamado 'El Rastreador', es un misterioso cazarrecompensas que entra en escena durante *John Wick: Capítulo 4*. Joven pero extremadamente competente, su habilidad para encontrar y acechar a Wick es impresionante.\n\nA diferencia de otros asesinos, Mr. Nobody no actúa por lealtad o principios: actúa por el precio correcto. Sin embargo, a medida que observa a John, empieza a cuestionar su propia motivación. Su lealtad se vuelve ambigua, y en un giro inesperado, incluso salva la vida de Wick.\n\nAcompañado de su perro de ataque, tiene una ética personal peculiar. Solo matará si se siente justamente recompensado… o amenazado. Es una figura que combina el oportunismo con el potencial de una brújula moral."
+    "description": "Mr. Nobody, también llamado 'El Rastreador', es un misterioso cazarrecompensas..."
   },
   {
     "id": "jw-026",
+    "imagen": "../photos/Perkins.png",
     "name": "Perkins",
     "alias": "Asesina del Continental",
     "occupation": "Asesina a sueldo",
@@ -273,10 +285,11 @@
       "Cuchillo de asalto",
       "Silenciador"
     ],
-    "description": "Perkins es una asesina a sueldo que aparece en *John Wick (2014)*. Inteligente, sigilosa y brutal, rompe una de las reglas más sagradas del submundo: atacar dentro del Continental. Este acto la convierte en objetivo de su propia comunidad.\n\nContratada para asesinar a Wick, muestra una crueldad y ambición sin límites. Su traición no solo amenaza a Wick, sino también al equilibrio del sistema que rige el mundo de los asesinos.\n\nFinalmente es ejecutada por orden de Winston, en una clara lección sobre lo que ocurre cuando alguien rompe el código. Perkins murió por su ambición... y por subestimar la importancia de las reglas."
+    "description": "Perkins es una asesina a sueldo que aparece en *John Wick (2014)*..."
   },
   {
     "id": "jw-027",
+    "imagen": "../photos/Ruska.png",
     "name": "La Directora",
     "alias": "La Ruska Roma",
     "occupation": "Líder de la Ruska Roma",
@@ -294,10 +307,11 @@
       "Cadena religiosa",
       "Tácticas de combate cuerpo a cuerpo"
     ],
-    "description": "La Directora es la figura principal de la Ruska Roma, una organización con raíces en Europa del Este que mezcla elementos de familia adoptiva, culto y entrenamiento militar. Aparece en *John Wick: Capítulo 3 – Parabellum*.\n\nFue la responsable de criar y entrenar a John Wick en sus primeros años, enseñándole lucha, disciplina, danza, idiomas y muerte. La Ruska Roma opera desde una fachada de teatro de ballet, donde sus 'hijos' son endurecidos para sobrevivir.\n\nPese a su dureza, ayuda a John dándole paso para escapar, aunque esto provoca que la Alta Mesa la castigue. La Directora es testimonio del pasado brutal y ritualista de Wick… y de las cicatrices que nunca se borran."
+    "description": "La Directora es la figura principal de la Ruska Roma..."
   },
   {
     "id": "jw-028",
+    "imagen": "../photos/Santino D Antonio.png",
     "name": "Santino D'Antonio",
     "alias": "Señor del Anillo",
     "occupation": "Miembro del Alto Crimen italiano",
@@ -314,10 +328,11 @@
       "Pistola de lujo",
       "Guardias privados"
     ],
-    "description": "Santino D'Antonio es el antagonista principal en *John Wick: Capítulo 2*. Tras ayudar a John a salir del mundo criminal, Santino reclama su favor mediante una 'marca de sangre', obligando a Wick a asesinar a su hermana Gianna para obtener un lugar en la Alta Mesa.\n\nSantino traiciona a Wick inmediatamente después, intentando eliminarlo para limpiar cabos sueltos. Esto desata una persecución internacional y marca la ruptura de John con las reglas del mundo criminal.\n\nFinalmente, Wick rompe la regla máxima: asesina a Santino dentro del Continental. Este acto lo convierte en 'excomulgado', iniciando una guerra total. Santino fue ambicioso, manipulador y elegante… pero no era rival para la voluntad de un hombre como John Wick."
+    "description": "Santino D'Antonio es el antagonista principal en *John Wick: Capítulo 2*..."
   },
   {
     "id": "jw-029",
+    "imagen": "../photos/Sofia.png",
     "name": "Sofia Al-Azwar",
     "alias": "Gerente del Continental Casablanca",
     "occupation": "Asesina retirada / Gerente del Continental en Casablanca",
@@ -335,10 +350,11 @@
       "Perros pastor belga entrenados para el combate",
       "Arsenal oculto del Continental"
     ],
-    "description": "Sofia Al-Azwar aparece en *John Wick: Capítulo 3 – Parabellum* como una antigua aliada de John y gerente del Continental en Casablanca. Aunque retirada, conserva sus habilidades excepcionales y una actitud ferozmente profesional.\n\nSofia accede a ayudar a John a regañadientes por una deuda pasada. Cuando la situación escala, demuestra su letalidad con una coreografía impecable entre ella, sus armas y sus dos perros de combate. Su estilo de lucha es elegante y brutal, perfectamente sincronizado con sus compañeros caninos.\n\nAunque su aparición es breve, deja claro que es tan imparable como Wick cuando la situación lo exige. Está motivada por códigos personales de honor, deuda y límites bien marcados."
+    "description": "Sofia Al-Azwar aparece en *John Wick: Capítulo 3 – Parabellum*..."
   },
   {
     "id": "jw-030",
+    "imagen": "../photos/Viggo.png",
     "name": "Viggo Tarasov",
     "alias": "El jefe de la mafia rusa",
     "occupation": "Capo del crimen ruso",
@@ -355,10 +371,11 @@
       "Pistola clásica rusa",
       "Ejército privado"
     ],
-    "description": "Viggo Tarasov es el antagonista principal de *John Wick (2014)*. Antiguo empleador de John, lo respeta profundamente pero se convierte en su enemigo cuando su hijo, Iosef, mata al perro de John y roba su auto.\n\nPese a saber quién es Wick, Viggo intenta proteger a su hijo, desatando una guerra que sabe que no puede ganar. A medida que avanza la historia, pasa de la arrogancia al miedo, de la amenaza a la desesperación.\n\nSu caída simboliza la consecuencia de ignorar las advertencias y romper con códigos de respeto dentro del mundo criminal. En su interior, sabía que nadie —ni siquiera él— podía detener a John Wick."
+    "description": "Viggo Tarasov es el antagonista principal de *John Wick (2014)*..."
   },
   {
     "id": "jw-031",
+    "imagen": "../photos/Winston.png",
     "name": "Winston Scott",
     "alias": "El Gerente",
     "occupation": "Gerente del Continental Nueva York",
@@ -376,10 +393,11 @@
       "Seguridad armada del Continental",
       "Pistola de bolsillo"
     ],
-    "description": "Winston es el sofisticado y enigmático gerente del Continental en Nueva York, una figura clave a lo largo de todas las películas de *John Wick*. Es tanto aliado como manipulador, y su relación con John mezcla respeto, interés y cálculo.\n\nProtege a John hasta donde le es posible, pero no duda en traicionarlo cuando eso asegura su posición ante la Alta Mesa (*Capítulo 3*). En *Capítulo 4*, su lealtad parece alinearse nuevamente con Wick, demostrando que sus decisiones son siempre una combinación de astucia y oportunismo.\n\nWinston es el tipo de hombre que nunca dispara sin tener el resultado planeado. Es el equilibrio perfecto entre el crimen organizado y la etiqueta, entre la amenaza y la cortesía."
+    "description": "Winston es el sofisticado y enigmático gerente del Continental en Nueva York..."
   },
   {
     "id": "jw-032",
+    "imagen": "../photos/Zero.png",
     "name": "Zero",
     "alias": "El Ninja",
     "occupation": "Asesino y maestro de una escuela de artes marciales",
@@ -397,7 +415,7 @@
       "Cuchillos lanzables",
       "Técnicas ninja"
     ],
-    "description": "Zero es el asesino principal contratado por la Alta Mesa en *John Wick: Capítulo 3 – Parabellum*. Maestro de artes marciales y líder de un grupo de asesinos ninja, representa una amenaza formidable para Wick.\n\nLo irónico es que, aunque busca matarlo, Zero es un fan declarado de John. Lo idolatra, lo estudia y hasta lo admira durante sus enfrentamientos. Esta combinación de respeto y deber lo convierte en un oponente único.\n\nZero lucha con honor, pero también con ambición. En su enfrentamiento final, cae por subestimar la determinación inquebrantable de Wick. Su muerte es honorable, acorde con su código, incluso si su deseo de reconocimiento nunca fue correspondido."
+    "description": "Zero es el asesino principal contratado por la Alta Mesa en *John Wick: Capítulo 3 – Parabellum*..."
   }
 ]
 
