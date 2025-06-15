@@ -392,3 +392,11 @@ hr {
   display: flex;
   font-family: "Monserrat";
 }
+
+.Info_character {
+  font-family: "Work Sans";
+}
+
+strong, h3 {
+  font-family: "Compacta";
+}

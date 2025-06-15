@@ -99,11 +99,12 @@ class characters_images extends HTMLElement {
                 throw new Error("Error al cargar el archivo JSON");
             }
             const data = await response.json();
-            const image_character = data.characters;
+            const image_character = data;
+            this.replaceChildren();
 
             // Crear un contenedor principal para las tarjetas de personajes
             const container = document.createElement("div");
-            container.id = "characters_container";
+            container.id = "characters_section"
 
             // Iterar sobre los personajes y crear las tarjetas
             image_character.forEach(character => {
@@ -133,4 +134,5 @@ class characters_images extends HTMLElement {
     }
 }
 
-customElements.define("character_image", characters_images);
+customElements.define("character-card-list", characters_images);
+
