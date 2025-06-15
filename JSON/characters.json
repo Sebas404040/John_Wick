@@ -19,7 +19,8 @@
       "Shuriken",
       "Pistola táctica"
     ],
-    "description": "Akira es la hija de Shimazu Koji, gerente del Continental Osaka..."
+    "description": "Akira es la hija de Shimazu Koji, gerente del Continental Osaka...",
+    "movies": ["John Wick 4"]
   },
   {
     "id": "jw-015",
@@ -42,7 +43,8 @@
       "Espadas ocultas",
       "Armas improvisadas"
     ],
-    "description": "El Bowery King es una figura enigmática, temida y respetada en igual medida..."
+    "description": "El Bowery King es una figura enigmática, temida y respetada en igual medida...",
+    "movies": ["John Wick 2", "John Wick 3", "John Wick 4"]
   },
   {
     "id": "jw-016",
@@ -66,7 +68,8 @@
       "Sensor de movimiento",
       "Dagas ocultas"
     ],
-    "description": "Caine no necesita ver para matar. Ciego, pero letal, es una de las armas más refinadas del High Table..."
+    "description": "Caine no necesita ver para matar. Ciego, pero letal, es una de las armas más refinadas del High Table...",
+    "movies": ["John Wick 4"]
   },
   {
     "id": "jw-017",
@@ -89,7 +92,8 @@
       "Cuchillo de combate",
       "Armas improvisadas"
     ],
-    "description": "Cassian fue guardaespaldas de Gianna D'Antonio y uno de los asesinos más formidables de Roma..."
+    "description": "Cassian fue guardaespaldas de Gianna D'Antonio y uno de los asesinos más formidables de Roma...",
+    "movies": ["John Wick 2"]
   },
   {
     "id": "jw-018",
@@ -112,7 +116,8 @@
       "Escopeta táctica",
       "Rifles de defensa interior"
     ],
-    "description": "Charon no era solo un conserje. Era el guardián silencioso del equilibrio en el Continental de Nueva York..."
+    "description": "Charon no era solo un conserje. Era el guardián silencioso del equilibrio en el Continental de Nueva York...",
+    "movies": ["John Wick 1", "John Wick 2", "John Wick 3", "John Wick 4"]
   },
   {
     "id": "jw-019",
@@ -133,7 +138,8 @@
       "Cuchillo ceremonial",
       "Guardias armados"
     ],
-    "description": "El Anciano, conocido como The Elder, es la figura más enigmática y poderosa del universo de John Wick..."
+    "description": "El Anciano, conocido como The Elder, es la figura más enigmática y poderosa del universo de John Wick...",
+    "movies": ["John Wick 3", "John Wick 4"]
   },
   {
     "id": "jw-020",
@@ -153,7 +159,8 @@
       "Pistola semiautomática",
       "Armas de sus guardaespaldas"
     ],
-    "description": "Josef Tarasov es el catalizador de toda la saga de John Wick..."
+    "description": "Josef Tarasov es el catalizador de toda la saga de John Wick...",
+    "movies": ["John Wick 1"]
   },
   {
     "id": "jw-021",
@@ -175,7 +182,8 @@
       "Shuriken",
       "Armas tradicionales japonesas"
     ],
-    "description": "Koji Shimazu es el honorable gerente del Hotel Continental en Osaka..."
+    "description": "Koji Shimazu es el honorable gerente del Hotel Continental en Osaka...",
+    "movies": ["John Wick 4"]
   },
   {
     "id": "jw-022",
@@ -196,7 +204,8 @@
       "Guardias de élite",
       "Poder institucional"
     ],
-    "description": "La Adjudicadora es una figura fría, meticulosa y absolutamente leal a la Alta Mesa..."
+    "description": "La Adjudicadora es una figura fría, meticulosa y absolutamente leal a la Alta Mesa...",
+    "movies": ["John Wick 3"]
   },
   {
     "id": "jw-023",
@@ -219,7 +228,8 @@
       "Pistola con silenciador",
       "Cuchillo de combate"
     ],
-    "description": "Marcus fue un antiguo asesino profesional y uno de los pocos que podía igualar la precisión de John Wick..."
+    "description": "Marcus fue un antiguo asesino profesional y uno de los pocos que podía igualar la precisión de John Wick...",
+    "movies": ["John Wick 1"]
   },
   {
     "id": "jw-024",
@@ -240,7 +250,8 @@
       "Guardias de élite",
       "Poder de la Alta Mesa"
     ],
-    "description": "El Marqués Vincent de Gramont es un miembro de alto rango de la Alta Mesa..."
+    "description": "El Marqués Vincent de Gramont es un miembro de alto rango de la Alta Mesa...",
+    "movies": ["John Wick 4"]
   },
   {
     "id": "jw-025",
@@ -263,7 +274,8 @@
       "Cuchillo táctico",
       "Perro entrenado en combate"
     ],
-    "description": "Mr. Nobody, también llamado 'El Rastreador', es un misterioso cazarrecompensas..."
+    "description": "Mr. Nobody, también llamado 'El Rastreador', es un misterioso cazarrecompensas...",
+    "movies": ["John Wick 4"]
   },
   {
     "id": "jw-026",
@@ -285,7 +297,8 @@
       "Cuchillo de asalto",
       "Silenciador"
     ],
-    "description": "Perkins es una asesina a sueldo que aparece en *John Wick (2014)*..."
+    "description": "Perkins es una asesina a sueldo que aparece en *John Wick (2014)*...",
+    "movies": ["John Wick 1"]
   },
   {
     "id": "jw-027",
@@ -307,7 +320,8 @@
       "Cadena religiosa",
       "Tácticas de combate cuerpo a cuerpo"
     ],
-    "description": "La Directora es la figura principal de la Ruska Roma..."
+    "description": "La Directora es la figura principal de la Ruska Roma...",
+    "movies": ["John Wick 3"]
   },
   {
     "id": "jw-028",
@@ -328,7 +342,8 @@
       "Pistola de lujo",
       "Guardias privados"
     ],
-    "description": "Santino D'Antonio es el antagonista principal en *John Wick: Capítulo 2*..."
+    "description": "Santino D'Antonio es el antagonista principal en *John Wick: Capítulo 2*...",
+    "movies": ["John Wick 2"]
   },
   {
     "id": "jw-029",
@@ -350,7 +365,8 @@
       "Perros pastor belga entrenados para el combate",
       "Arsenal oculto del Continental"
     ],
-    "description": "Sofia Al-Azwar aparece en *John Wick: Capítulo 3 – Parabellum*..."
+    "description": "Sofia Al-Azwar aparece en *John Wick: Capítulo 3 – Parabellum*...",
+    "movies": ["John Wick 3"]
   },
   {
     "id": "jw-030",
@@ -371,7 +387,8 @@
       "Pistola clásica rusa",
       "Ejército privado"
     ],
-    "description": "Viggo Tarasov es el antagonista principal de *John Wick (2014)*..."
+    "description": "Viggo Tarasov es el antagonista principal de *John Wick (2014)*...",
+    "movies": ["John Wick 1"]
   },
   {
     "id": "jw-031",
@@ -393,7 +410,8 @@
       "Seguridad armada del Continental",
       "Pistola de bolsillo"
     ],
-    "description": "Winston es el sofisticado y enigmático gerente del Continental en Nueva York..."
+    "description": "Winston es el sofisticado y enigmático gerente del Continental en Nueva York...",
+    "movies": ["John Wick 1", "John Wick 2", "John Wick 3", "John Wick 4"]
   },
   {
     "id": "jw-032",
@@ -415,7 +433,8 @@
       "Cuchillos lanzables",
       "Técnicas ninja"
     ],
-    "description": "Zero es el asesino principal contratado por la Alta Mesa en *John Wick: Capítulo 3 – Parabellum*..."
+    "description": "Zero es el asesino principal contratado por la Alta Mesa en *John Wick: Capítulo 3 – Parabellum*...",
+    "movies": ["John Wick 3"]
   }
 ]
 
