@@ -88,9 +88,34 @@ class characters_showimages extends HTMLElement {
     }
 
     connectedCallback() {
-        this.fetchAndRender();
-        this.setupSearchListener();
+    this.fetchAndRender();
+    this.setupSearchListener();
+    this.setupFilterListener();
+}
+
+setupFilterListener() {
+    const filtroImg = document.querySelector('.filtro');
+    const movieFilter = document.getElementById('movieFilter');
+    if (filtroImg && movieFilter) {
+        filtroImg.addEventListener('click', () => {
+            movieFilter.style.display = movieFilter.style.display === 'none' ? 'inline-block' : 'none';
+        });
+        movieFilter.addEventListener('change', () => {
+            this.filterByMovie(movieFilter.value);
+        });
     }
+}
+
+filterByMovie(movieName) {
+    if (!movieName) {
+        this.renderCharacters(this.characters);
+    } else {
+        const filtered = this.characters.filter(character =>
+            character.movies && character.movies.includes(movieName)
+        );
+        this.renderCharacters(filtered);
+    }
+}
 
     async fetchAndRender() {
         try {
@@ -160,3 +185,4 @@ class characters_showimages extends HTMLElement {
     }
 }
 customElements.define("character-card-list", characters_showimages);
+
