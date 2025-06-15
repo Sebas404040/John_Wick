@@ -81,58 +81,82 @@ if (characterId) {
     console.error("No se proporcionó un ID de personaje en la URL");
 }
 
-// Codigo template
-
-class characters_images extends HTMLElement {
+class characters_showimages extends HTMLElement {
     constructor() {
         super();
+        this.characters = [];
     }
 
     connectedCallback() {
-        this.renderCharacters();
+        this.fetchAndRender();
+        this.setupSearchListener();
     }
 
-    async renderCharacters() {
+    async fetchAndRender() {
         try {
             const response = await fetch("../JSON/characters.json");
-            if (!response.ok) {
-                throw new Error("Error al cargar el archivo JSON");
-            }
-            const data = await response.json();
-            const image_character = data;
-            this.replaceChildren();
-
-            // Crear un contenedor principal para las tarjetas de personajes
-            const container = document.createElement("div");
-            container.id = "characters_section"
-
-            // Iterar sobre los personajes y crear las tarjetas
-            image_character.forEach(character => {
-                const card = document.createElement("div");
-                card.classList.add("character_card");
-
-                const link = document.createElement("a");
-                link.href = `../html/character_info.html?id=${character.id}`;
-
-                const img = document.createElement("img");
-                img.src = character.imagen;
-                img.alt = character.name;
-
-                // Agregar la imagen al enlace y el enlace a la tarjeta
-                link.appendChild(img);
-                card.appendChild(link);
-
-                // Agregar la tarjeta al contenedor principal
-                container.appendChild(card);
-            });
-
-            // Agregar el contenedor al componente personalizado
-            this.appendChild(container);
+            if (!response.ok) throw new Error("Error al cargar el archivo JSON");
+            this.characters = await response.json();
+            this.renderCharacters(this.characters);
         } catch (error) {
             console.error("Error en la obtención de datos:", error);
         }
     }
+
+    renderCharacters(charactersToShow) {
+    this.replaceChildren();
+    const container = document.createElement("div");
+    container.id = "characters_section";
+
+    if (charactersToShow.length === 1) {
+        container.classList.add("search-active");
+    }
+
+    charactersToShow.forEach(character => {
+        if (character.imagen && character.name) {
+            const card = document.createElement("div");
+            card.classList.add("character_card");
+
+            const link = document.createElement("a");
+            link.href = `../html/character_info.html?id=${character.id}`;
+
+            const img = document.createElement("img");
+            img.src = character.imagen;
+            img.alt = character.name;
+
+            const name = document.createElement("div");
+            name.textContent = character.name;
+            name.style.textAlign = "center";
+            name.style.padding = "0.5rem";
+            name.style.fontFamily = "Work Sans";
+            name.style.fontSize = "1.1rem";
+            name.style.color = "#fff";
+
+            link.appendChild(img);
+            card.appendChild(link);
+            card.appendChild(name);
+
+            container.appendChild(card);
+        }
+    });
+    this.appendChild(container);
 }
 
-customElements.define("character-card-list", characters_images);
-
+    setupSearchListener() {
+        const input = document.querySelector('.input_SearchCharacter');
+        if (input) {
+            input.addEventListener('input', () => {
+                const value = input.value.trim().toLowerCase();
+                if (value === "") {
+                    this.renderCharacters(this.characters);
+                } else {
+                    const filtered = this.characters.filter(letra =>
+                        letra.name && letra.name.toLowerCase().includes(value)
+                    );
+                    this.renderCharacters(filtered);
+                }
+            });
+        }
+    }
+}
+customElements.define("character-card-list", characters_showimages);

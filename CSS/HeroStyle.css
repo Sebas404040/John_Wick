@@ -163,7 +163,6 @@ input {
   box-sizing: border-box;  
 }
 
-
 #characters_section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -172,6 +171,18 @@ input {
   background-color: #111;
   color: white;
 }
+
+
+#characters_section.search-active {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  padding: 2rem;
+  background-color: #111;
+}
+
+
 
 .character_card {
   background-color: #1e1e1e;
