@@ -4,6 +4,7 @@
     "nombre": "Benelli M2 Super 90 (TTI)",
     "descripcion": "Escopeta semiautomática de acción por inercia, conocida por su fiabilidad y rapidez de disparo. Utilizada por John Wick en varias escenas de combate.",
     "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Benelli M2 Super 90 (TTI).png",
     "stats": {
       "ergonomia": 85,
       "punteria": 70,
@@ -16,6 +17,7 @@
     "nombre": "Cinturón",
     "descripcion": "Accesorio clave que complementa su atuendo y sirve como herramienta práctica para llevar munición y equipo.",
     "peliculas": ["John Wick", "John Wick: Chapter 2"],
+    "imagen": "../weapons/Cinturon.png",
     "stats": {
       "ergonomia": 60,
       "punteria": 0,
@@ -28,6 +30,7 @@
     "nombre": "Colt M1911A1",
     "descripcion": "Pistola semiautomática calibre .45 ACP, famosa por su potencia y precisión.",
     "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Colt M1911A1.png",
     "stats": {
       "ergonomia": 70,
       "punteria": 75,
@@ -39,9 +42,8 @@
     "id": "arma_004",
     "nombre": "CZ P-10C",
     "descripcion": "Pistola semiautomática de polímero, conocida por su ergonomía y precisión. Utilizada por John Wick en sus enfrentamientos.",
-    "peliculas": [
-      "John Wick: Chapter 3 – Parabellum"
-    ],
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/CZ P-10C.png",
     "stats": {
       "ergonomia": 85,
       "punteria": 80,
@@ -53,9 +55,8 @@
     "id": "arma_005",
     "nombre": "Daniel Defense MK18",
     "descripcion": "Rifle de asalto compacto, conocido por su versatilidad y potencia de fuego. Arma icónica en la saga.",
-    "peliculas": [
-      "John Wick: Chapter 3 – Parabellum"
-    ],
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Daniel Defense MK18.png",
     "stats": {
       "ergonomia": 70,
       "punteria": 80,
@@ -67,9 +68,8 @@
     "id": "arma_006",
     "nombre": "Genesis Arms Gen-12",
     "descripcion": "Escopeta semiautomática calibre 12, con diseño innovador y capacidad para diversas municiones.",
-    "peliculas": [
-      "John Wick: Chapter 4"
-    ],
+    "peliculas": ["John Wick: Chapter 4"],
+    "imagen": "../weapons/Genesis Arms Gen-12.png",
     "stats": {
       "ergonomia": 75,
       "punteria": 65,
@@ -81,10 +81,8 @@
     "id": "arma_007",
     "nombre": "Glock 26",
     "descripcion": "Pistola compacta semiautomática, destacada por su fiabilidad y portabilidad. Usada por John Wick.",
-    "peliculas": [
-      "John Wick",
-      "John Wick: Chapter 2"
-    ],
+    "peliculas": ["John Wick", "John Wick: Chapter 2"],
+    "imagen": "../weapons/Glock 26.png",
     "stats": {
       "ergonomia": 80,
       "punteria": 70,
@@ -96,9 +94,8 @@
     "id": "arma_008",
     "nombre": "Glock 34",
     "descripcion": "Pistola semiautomática de competición, reconocida por su precisión y rápida respuesta.",
-    "peliculas": [
-      "John Wick: Chapter 2"
-    ],
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Glock 34.png",
     "stats": {
       "ergonomia": 85,
       "punteria": 85,
@@ -110,9 +107,8 @@
     "id": "arma_009",
     "nombre": "Katana",
     "descripcion": "Espada japonesa tradicional, utilizada en combate cuerpo a cuerpo, demostrando la habilidad marcial de John Wick.",
-    "peliculas": [
-      "John Wick: Chapter 3 – Parabellum"
-    ],
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Katana.png",
     "stats": {
       "ergonomia": 90,
       "punteria": 95,
@@ -124,9 +120,8 @@
     "id": "arma_010",
     "nombre": "Kimber Warrior",
     "descripcion": "Pistola semiautomática de alta calidad, destacada por su precisión y durabilidad.",
-    "peliculas": [
-      "John Wick: Chapter 2"
-    ],
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Kimber Warrior (1).png",
     "stats": {
       "ergonomia": 75,
       "punteria": 80,
@@ -138,9 +133,8 @@
     "id": "arma_011",
     "nombre": "Cuchillo",
     "descripcion": "Arma blanca versátil usada en combate cercano. Muestra la destreza de John Wick en situaciones cuerpo a cuerpo.",
-    "peliculas": [
-      "John Wick: Chapter 3 – Parabellum"
-    ],
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Knife.png",
     "stats": {
       "ergonomia": 90,
       "punteria": 90,
@@ -152,9 +146,8 @@
     "id": "arma_012",
     "nombre": "KRISS Vector",
     "descripcion": "Subfusil innovador de disparo rápido con diseño único, utilizado en diversos combates.",
-    "peliculas": [
-      "John Wick: Chapter 2"
-    ],
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/KRISS Vector.png",
     "stats": {
       "ergonomia": 80,
       "punteria": 75,
@@ -166,9 +159,8 @@
     "id": "arma_013",
     "nombre": "KSG",
     "descripcion": "Escopeta de acción por bombeo, compacta y poderosa, ideal para combates cerrados.",
-    "peliculas": [
-      "John Wick: Chapter 2"
-    ],
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/KSG.png",
     "stats": {
       "ergonomia": 65,
       "punteria": 65,
@@ -180,8 +172,8 @@
     "id": "w012",
     "nombre": "M110",
     "descripcion": "Rifle de francotirador semiautomático, conocido por su precisión y potencia de fuego. Utilizado por John Wick en situaciones de largo alcance.",
-    "imagen": "../weapons/M110.png",
     "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/M110.png",
     "stats": {
       "ergonomia": 65,
       "punteria": 90,
@@ -193,8 +185,8 @@
     "id": "w013",
     "nombre": "M4A1",
     "descripcion": "Rifle de asalto versátil y potente. Una de las armas más icónicas utilizadas por John Wick.",
-    "imagen": "../weapons/M4A1.png",
     "peliculas": ["John Wick", "John Wick: Capítulo 2", "John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/M4A1.png",
     "stats": {
       "ergonomia": 80,
       "punteria": 75,
@@ -206,8 +198,8 @@
     "id": "w014",
     "nombre": "P30 L",
     "descripcion": "Pistola semiautomática conocida por su ergonomía y precisión. Usada por John Wick en múltiples escenas de acción.",
-    "imagen": "../weapons/P30 L.png",
     "peliculas": ["John Wick", "John Wick: Capítulo 2"],
+    "imagen": "../weapons/P30 L.png",
     "stats": {
       "ergonomia": 85,
       "punteria": 70,
@@ -219,8 +211,8 @@
     "id": "w015",
     "nombre": "Pit Viper by Taran Tactical",
     "descripcion": "Pistola personalizada de alto rendimiento, destacada por su diseño y precisión.",
-    "imagen": "../weapons/Pit Viper by Taran Tactical.png",
     "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/Pit Viper by Taran Tactical.png",
     "stats": {
       "ergonomia": 90,
       "punteria": 80,
@@ -232,8 +224,8 @@
     "id": "w016",
     "nombre": "Remington 870",
     "descripcion": "Escopeta de acción por bombeo reconocida por su fiabilidad y potencia.",
-    "imagen": "../weapons/Remington 870.png",
     "peliculas": ["John Wick", "John Wick: Capítulo 2"],
+    "imagen": "../weapons/Remington 870.png",
     "stats": {
       "ergonomia": 60,
       "punteria": 65,
@@ -245,8 +237,8 @@
     "id": "w017",
     "nombre": "SIG MPX Carbine",
     "descripcion": "Subfusil semiautomático con diseño modular y capacidad de disparo rápido.",
-    "imagen": "../weapons/SIG MPX Carbine.png",
     "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG MPX Carbine.png",
     "stats": {
       "ergonomia": 80,
       "punteria": 75,
@@ -258,8 +250,8 @@
     "id": "w018",
     "nombre": "SIG MPX",
     "descripcion": "Subfusil compacto y rápido, ideal para acción cerrada.",
-    "imagen": "../weapons/SIG MPX.png",
     "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG MPX.png",
     "stats": {
       "ergonomia": 85,
       "punteria": 70,
@@ -271,8 +263,8 @@
     "id": "w019",
     "nombre": "SIG-Sauer P320",
     "descripcion": "Pistola semiautomática modular de polímero, destacada por su versatilidad.",
-    "imagen": "../weapons/SIG-Sauer P320.png",
     "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG-Sauer P320.png",
     "stats": {
       "ergonomia": 80,
       "punteria": 72,
@@ -284,8 +276,8 @@
     "id": "w020",
     "nombre": "SIG-Sauer P365",
     "descripcion": "Pistola compacta de gran capacidad, ideal para combate a corta distancia.",
-    "imagen": "../weapons/SIG-Sauer P365.png",
     "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/SIG-Sauer P365.png",
     "stats": {
       "ergonomia": 90,
       "punteria": 65,
@@ -297,8 +289,8 @@
     "id": "w021",
     "nombre": "SR-16",
     "descripcion": "Rifle de asalto semiautomático conocido por su fiabilidad y precisión.",
-    "imagen": "../weapons/SR-16.png",
     "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/SR-16.png",
     "stats": {
       "ergonomia": 75,
       "punteria": 80,
@@ -310,8 +302,8 @@
     "id": "w022",
     "nombre": "STI 2011 Combat Master (TTI)",
     "descripcion": "Pistola de alto rendimiento personalizada, ideal para combate intensivo.",
-    "imagen": "../weapons/STI 2011 Combat Master (TTI).png",
     "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/STI 2011 Combat Master (TTI).png",
     "stats": {
       "ergonomia": 92,
       "punteria": 85,
@@ -323,8 +315,8 @@
     "id": "w023",
     "nombre": "TTI TR-1 Ultralight",
     "descripcion": "Rifle de asalto ultraligero personalizado, usado por John Wick por su precisión.",
-    "imagen": "../weapons/TTI TR-1 Ultralight.png",
     "peliculas": ["John Wick: Capítulo 2"],
+    "imagen": "../weapons/TTI TR-1 Ultralight.png",
     "stats": {
       "ergonomia": 88,
       "punteria": 82,
