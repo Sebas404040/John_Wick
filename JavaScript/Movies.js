@@ -13,25 +13,31 @@ class movie_johnWick extends HTMLElement {
             const data = await response.json();
             const movies = data.movies;
 
-            // Crear un contenedor principal con la clase #main_movies
             const mainMovies = document.createElement("div");
             mainMovies.id = "main_movies";
 
-            // Crear contenido dinámico
             movies.forEach(movie => {
                 const section = document.createElement("section");
                 section.classList.add("poster_section");
+
+                const link = document.createElement("a");
+                link.href = "#";
+
+                // Estudiar sobre encodeURIComponent
+                link.href = `movie_info.html?title=${encodeURIComponent(movie.title)}`;
 
                 const img = document.createElement("img");
                 img.src = movie.poster;
                 img.alt = "Poster";
                 img.classList.add("poster_JW");
 
-                section.appendChild(img);
-                mainMovies.appendChild(section); // Agregar cada sección al contenedor principal
-            });
+                link.appendChild(img)
+                section.appendChild(link);
+                mainMovies.appendChild(section);
 
-            this.appendChild(mainMovies); // Agregar el contenedor principal al componente
+            });            
+
+            this.appendChild(mainMovies); 
         } catch (error) {
             console.error("Error en la obtención de datos:", error);
         }
@@ -39,3 +45,4 @@ class movie_johnWick extends HTMLElement {
 }
 
 customElements.define("movie-johnwick", movie_johnWick);
+
