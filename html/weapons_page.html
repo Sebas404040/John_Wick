@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Armeria</title>
-    <link rel="stylesheet" href="../CSS/HeroStyle.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Armeria</title>
+        <link rel="stylesheet" href="../CSS/HeroStyle.css">
+    </head>
 
-<body class="fondo_negro">
-    <header>
-        <span class="header_title"><a href="../index.html">JOHN WICK</a></span>
-        <nav>
-            <span class="opcion"><a href="./history_page.html">Biografía</a></span>
-            <span class="opcion"><a href="./movies_page.html">Peliculas</a></span>
-            <span class="opcion"><a href="./weapons_page.html">Armería</a></span>
-            <span class="opcion"><a href="./characters_page.html">Personajes</a></span>
-        </nav>
-        <section class="search_section">
-            <input type="text" class="input_SearchCharacter" placeholder="Buscar personaje">
-            <img src="../icons/Filtro.png" alt="filtro" class="filtro">
-        </section>
-    </header>
-    <main id="weapons_total">
-        <weapon-easy-element></weapon-easy-element>
-    </main>
-    <script type="module" src="../JavaScript/weapons.js"></script>
-</body>
+    <body class="fondo_negro">
+        <header>
+            <span class="header_title"><a href="../index.html">JOHN
+                    WICK</a></span>
+            <nav>
+                <span class="opcion"><a
+                        href="./history_page.html">Biografía</a></span>
+                <span class="opcion"><a
+                        href="./movies_page.html">Peliculas</a></span>
+                <span class="opcion"><a
+                        href="./weapons_page.html">Armería</a></span>
+                <span class="opcion"><a
+                        href="./characters_page.html">Personajes</a></span>
+            </nav>
+            <section class="search_section">
+                <input type="text" class="input_SearchCharacter"
+                    placeholder="Buscar personaje">
+                <img src="../icons/Filtro.png" alt="filtro" class="filtro">
+                <select id="movieFilter">
+                    <option value>Todas las películas</option>
+                    <option value="John Wick">John Wick</option>
+                    <option value="John Wick: Chapter 2">John Wick: Chapter 2</option>
+                    <option value="John Wick: Chapter 3 – Parabellum">John Wick: Chapter 3 – Parabellum</option>
+                    <option value="John Wick: Chapter 4">John Wick: Chapter 4</option>
+                </select>
+            </section>
+        </header>
+        <main id="weapons_total">
+            <weapon-easy-element></weapon-easy-element>
+        </main>
+        <script type="module" src="../JavaScript/weapons.js"></script>
+    </body>
 
 </html>

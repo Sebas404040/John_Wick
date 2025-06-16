@@ -95,53 +95,117 @@ if (weaponId) {
 class show_weapons_JW extends HTMLElement {
     constructor() {
         super();
+        this.weapons = [];
     }
 
     connectedCallback() {
-        this.renderWeapons();
-    }
+    this.fetchAndRenderWeapons();
+    this.setupFilterListener();
+    this.setupSearchListener();
+}
 
-    async renderWeapons() {
-        try {
-            const response = await fetch("../JSON/weapons.json")
-            const weapons = await response.json();
+    setupSearchListener() {
+    const searchInput = document.querySelector('.input_SearchCharacter');
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            const searchTerm = searchInput.value.trim().toLowerCase();
+            let filtered = this.weapons;
 
-            const main = document.getElementById("weapons_total");
-            this.remove();
+            const movieFilter = document.getElementById("movieFilter");
+            const movieName = movieFilter && movieFilter.value ? movieFilter.value : "";
 
-            weapons.forEach(weapon => {
-                const link = document.createElement("a")
-                link.href = `weapon_info.html?id=${weapon.id}`;
+            if (movieName) {
+                filtered = filtered.filter(weapon =>
+                    weapon.peliculas && weapon.peliculas.includes(movieName)
+                );
+            }
 
-                const weapon_easy_info = document.createElement("section");
-                weapon_easy_info.classList.add("weapon_card");
+            if (searchTerm) {
+                filtered = filtered.filter(weapon =>
+                    weapon.nombre && weapon.nombre.toLowerCase().includes(searchTerm)
+                );
+            }
 
-                const img = document.createElement("img");
-                img.src = weapon.imagen;
-                img.alt = "imagen_weapon";
-                img.classList.add("weapon_image");
-
-                link.appendChild(img);
-
-                const info_container = document.createElement("div");
-
-                const title_weapon = document.createElement("h3");
-                title_weapon.textContent = weapon.nombre;
-
-                const description_weapon = document.createElement("p");
-                description_weapon.textContent = weapon.descripcion;
-
-                info_container.appendChild(title_weapon);
-                info_container.appendChild(description_weapon);
-                weapon_easy_info.appendChild(link);
-                weapon_easy_info.appendChild(info_container);
-
-                main.appendChild(weapon_easy_info);
-            });
-
-        } catch (error) {
-            console.error("Error en la obtencion de datos", error)
-        }
+            this.renderWeapons(filtered);
+        });
     }
 }
+
+    async fetchAndRenderWeapons() {
+        try {
+            const response = await fetch("../JSON/weapons.json");
+            const weapons = await response.json();
+            this.weapons = weapons;
+            this.renderWeapons(weapons);
+        } catch (error) {
+            console.error("Error en la obtención de datos", error);
+        }
+    }
+
+    renderWeapons(weaponsToShow) {
+        const main = document.getElementById("weapons_total");
+        main.querySelectorAll(".weapon_card").forEach(card => card.remove());
+
+        weaponsToShow.forEach(weapon => {
+            const link = document.createElement("a");
+            link.href = `weapon_info.html?id=${weapon.id}`;
+
+            const weapon_easy_info = document.createElement("section");
+            weapon_easy_info.classList.add("weapon_card");
+
+            const img = document.createElement("img");
+            img.src = weapon.imagen;
+            img.alt = "imagen_weapon";
+            img.classList.add("weapon_image");
+
+            link.appendChild(img);
+
+            const info_container = document.createElement("div");
+
+            const title_weapon = document.createElement("h3");
+            title_weapon.textContent = weapon.nombre;
+
+            const description_weapon = document.createElement("p");
+            description_weapon.textContent = weapon.descripcion;
+
+            info_container.appendChild(title_weapon);
+            info_container.appendChild(description_weapon);
+            weapon_easy_info.appendChild(link);
+            weapon_easy_info.appendChild(info_container);
+
+            main.appendChild(weapon_easy_info);
+        });
+    }
+
+    setupFilterListener() {
+        const movieFilter = document.getElementById("movieFilter");
+        if (movieFilter) {
+            movieFilter.addEventListener("change", () => {
+                const movieName = movieFilter.value;
+                if (!movieName) {
+                    this.renderWeapons(this.weapons);
+                } else {
+                    const filtered = this.weapons.filter(weapon =>
+                        weapon.peliculas && weapon.peliculas.includes(movieName)
+                    );
+                    this.renderWeapons(filtered);
+                }
+            });
+        }
+    }
+
+    
+}
+
 customElements.define("weapon-easy-element", show_weapons_JW);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const filtroImg = document.querySelector('.filtro');
+    const movieFilter = document.getElementById('movieFilter');
+    if (filtroImg && movieFilter) {
+        filtroImg.addEventListener('click', () => {
+            movieFilter.style.display = movieFilter.style.display === "none" ? "inline-block" : "none";
+        });
+        movieFilter.style.display = "none";
+    }
+});
