@@ -230,6 +230,60 @@ input {
   font-family: "Monserrat";
 }
 
+
+/* Boton por arreglar y meter uno que otro estilo */
+#movieFilter {
+  font-family: "Compacta", "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  background: linear-gradient(90deg, #1a1a1a 80%, #ff0055 100%);
+  border: 3px solid #ff0055;
+  border-radius: 18px;
+  box-shadow: 0 0 20px #ff0055, 0 0 40px #00bfff inset;
+  padding: 12px 32px 12px 18px;
+  outline: none;
+  transition: 
+    box-shadow 0.4s cubic-bezier(.4,2,.6,1),
+    border-color 0.3s,
+    background 0.5s;
+  position: relative;
+  cursor: pointer;
+  animation: neon-glow 2s infinite alternate;
+}
+
+@keyframes neon-glow {
+  0% {
+    box-shadow: 0 0 10px #0d00ff, 0 0 20px #00bfff inset;
+    border-color: #000000;
+  }
+  100% {
+    box-shadow: 0 0 30px #ff00c3, 0 0 60px #ff0000 inset;
+    border-color: #eeff00;
+  }
+}
+
+#movieFilter:focus, #movieFilter:hover {
+  background: linear-gradient(90deg, #1a1a1a 60%, #00bfff 100%);
+  border-color: #ff0000;
+  box-shadow: 0 0 40px #00bfff, 0 0 80px #ff0055 inset;
+  animation: none;
+}
+
+#movieFilter option {
+  background: #181818;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  padding: 10px;
+  transition: background 0.3s;
+}
+
+#movieFilter option:hover, #movieFilter option:focus {
+  background: #ff0055;
+  color: #fff;
+}
+
 /* CSS para la movies page */
 
 .poster_JW {
