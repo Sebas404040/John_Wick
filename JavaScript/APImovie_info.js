@@ -6,14 +6,25 @@ if (movieTitle) {
 }
 
 function fetchMovieFromOMDB(title) {
-    const apiKey = "2b1f33f5"; // Tu API key
+    const apiKey = "2b1f33f5";
     const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(title)}`;
 
     fetch(url)
         .then(response => response.json())
         .then(data => {
-            const section = document.querySelector(".Info_movie");
-            section.textContent = ""; // Limpia el contenido anterior
+            const section = document.querySelector(".performance_movie"); // Corregido el selector
+            const descripcion_section = document.getElementById("description_movie");
+            section.textContent = "";
+            descripcion_section.textContent = "";
+
+            function createInfoParagraph(label, value) {
+                        const p = document.createElement('p');
+                        const strong = document.createElement('strong');
+                        strong.textContent = `${label}: `;
+                        p.appendChild(strong);
+                        p.append(value);
+                        return p;
+            }
 
             if (data.Response === "True") {
                 const h3 = document.createElement("h3");
@@ -23,7 +34,7 @@ function fetchMovieFromOMDB(title) {
                 const img = document.createElement("img");
                 img.src = data.Poster;
                 img.alt = `Poster de ${data.Title}`;
-                img.style.maxWidth = "200px";
+
 
                 const director = document.createElement("p");
                 director.textContent = `Director: ${data.Director}`;
@@ -34,19 +45,27 @@ function fetchMovieFromOMDB(title) {
                 const plot = document.createElement("p");
                 plot.textContent = `Sinopsis: ${data.Plot}`;
 
+                const awards = document.createElement("p");
+                awards.textContent= `Premios: ${data.Awards}`;
+
                 const rating = document.createElement("p");
                 rating.textContent = `IMDB Rating: ${data.imdbRating}`;
 
                 section.appendChild(h3);
                 section.appendChild(img);
-                section.appendChild(director);
-                section.appendChild(actors);
-                section.appendChild(plot);
-                section.appendChild(rating);
+                descripcion_section.appendChild(createInfoParagraph("Director", data.Director));
+                descripcion_section.appendChild(createInfoParagraph("Reparto", data.Actors));
+                descripcion_section.appendChild(createInfoParagraph("Sinopsis", data.Plot));
+                descripcion_section.appendChild(createInfoParagraph("Premios", data.Awards));
+                descripcion_section.appendChild(createInfoParagraph("IMDB Rating", data.imdbRating));
             } else {
-                const notFound = document.createElement("p");
-                notFound.textContent = "Película no encontrada en OMDb";
-                section.appendChild(notFound);
+                const notFound1 = document.createElement("p");
+                notFound1.textContent = "Película no encontrada en OMDb";
+                section.appendChild(notFound1);
+
+                const notFound2 = document.createElement("p");
+                notFound2.textContent = "Película no encontrada en OMDb";
+                descripcion_section.appendChild(notFound2);
             }
         })
         .catch(error => {

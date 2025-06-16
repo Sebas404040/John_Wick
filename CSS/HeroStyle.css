@@ -303,27 +303,31 @@ hr {
 
 /*CSS para la Movie information page*/
 
-.section_info {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-}
-
 .button_back {
   width: 60px;
 }
 
-.movie_image {
-  border-radius: 20px;
-}
-
-.Info_movie {
+#description_movie {
   font-family: "Work Sans";
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-left: 40px;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+.performance_movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general_movie {
+  background-color: #161616;
+  border-radius: 20px;
+  border: 5px solid rgb(255, 0, 255);
+  box-shadow: 0px 0px 20px rgb(255, 0, 255);
 }
 
 .section_descriptionWeapon, .section_weaponInMovie {
@@ -332,6 +336,18 @@ hr {
   font-size: 1.5rem;
   padding: 10px;
 }
+
+.movie_title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.fondo_negro {
+  background-color: #000;
+  color: #fff;
+}
+
+
 
 /* CSS para la weapon info page */
 
