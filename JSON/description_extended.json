@@ -1,0 +1,327 @@
+[
+  {
+    "id": "arma_001",
+    "nombre": "Benelli M2 Super 90 (TTI)",
+    "descripcion": "La Benelli M2 Super 90 modificada por Taran Tactical Innovations es una escopeta semiautomática de acción por inercia, destacada por su fiabilidad, velocidad de recarga y bajo retroceso. John Wick la utiliza magistralmente durante la secuencia en la armería de 'John Wick: Chapter 3 – Parabellum', donde demuestra su capacidad para realizar múltiples disparos precisos en sucesión rápida. Su diseño personalizado permite una manipulación fluida en escenarios de combate a corta y media distancia, haciendo de esta escopeta una extensión letal de su técnica depurada.",
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Benelli M2 Super 90 (TTI).png",
+    "stats": {
+      "ergonomia": 85,
+      "punteria": 70,
+      "cadencia_disparo": 90,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "arma_002",
+    "nombre": "Cinturón",
+    "descripcion": "Más que un simple accesorio de vestimenta, el cinturón de John Wick cumple una función táctica dentro de su equipo de combate. Diseñado para portar cargadores, herramientas y en ocasiones armas ocultas, este cinturón de estilo militar combina discreción con funcionalidad. En varias escenas de acción, Wick lo emplea como improvisado instrumento defensivo, reflejando su habilidad para convertir cualquier objeto cotidiano en una herramienta de supervivencia.",
+    "peliculas": ["John Wick", "John Wick: Chapter 2"],
+    "imagen": "../weapons/Cinturon.png",
+    "stats": {
+      "ergonomia": 60,
+      "punteria": 0,
+      "cadencia_disparo": 0,
+      "retroceso": 0
+    }
+  },
+  {
+    "id": "arma_003",
+    "nombre": "Colt M1911A1",
+    "descripcion": "La Colt M1911A1 es una pistola semiautomática calibre .45 ACP, famosa por su durabilidad y potente retroceso. En 'John Wick: Chapter 2', esta arma clásica se convierte en parte del arsenal del protagonista durante la emboscada en las catacumbas romanas. Su diseño robusto y probado a lo largo del siglo XX la convierte en una elección confiable en combate cerrado. John la utiliza con precisión quirúrgica, demostrando su familiaridad con armamento histórico y su capacidad para adaptarse a cualquier herramienta en situaciones críticas.",
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Colt M1911A1.png",
+    "stats": {
+      "ergonomia": 70,
+      "punteria": 75,
+      "cadencia_disparo": 65,
+      "retroceso": 60
+    }
+  },
+  {
+    "id": "arma_004",
+    "nombre": "CZ P-10C",
+    "descripcion": "La CZ P-10C es una pistola semiautomática de polímero, diseñada para ofrecer una ergonomía superior, un gatillo nítido y una excelente precisión. En 'John Wick: Chapter 3 – Parabellum', esta arma es empleada por Wick durante tiroteos intensos en interiores, demostrando su eficacia en combate cuerpo a cuerpo. Su tamaño compacto permite una rápida extracción y maniobrabilidad, mientras que su fiabilidad la convierte en una opción ideal para enfrentamientos prolongados.",
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/CZ P-10C.png",
+    "stats": {
+      "ergonomia": 85,
+      "punteria": 80,
+      "cadencia_disparo": 75,
+      "retroceso": 45
+    }
+  },
+  {
+    "id": "arma_005",
+    "nombre": "Daniel Defense MK18",
+    "descripcion": "El Daniel Defense MK18 es un rifle de asalto compacto, ampliamente utilizado por fuerzas especiales. Su versatilidad y potencia lo hacen ideal para enfrentamientos en entornos urbanos cerrados. En la tercera entrega de la saga, Wick lo utiliza durante el asalto al Continental de Nueva York, haciendo gala de su dominio en la transición entre combate táctico y letal. El rifle, con su cañón corto y respuesta precisa, potencia el estilo agresivo y calculado del personaje.",
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Daniel Defense MK18.png",
+    "stats": {
+      "ergonomia": 70,
+      "punteria": 80,
+      "cadencia_disparo": 85,
+      "retroceso": 55
+    }
+  },
+  {
+    "id": "arma_006",
+    "nombre": "Genesis Arms Gen-12",
+    "descripcion": "La Genesis Arms Gen-12 es una escopeta semiautomática calibre 12 con diseño táctico moderno y capacidad para municiones especializadas. En 'John Wick: Chapter 4', Wick la utiliza con munición perforante de alta letalidad, aniquilando a sus enemigos incluso tras blindajes. La Gen-12 es un arma de poder demoledor, ideal para irrumpir en espacios cerrados y mantener una ventaja táctica mediante fuego sostenido y devastador.",
+    "peliculas": ["John Wick: Chapter 4"],
+    "imagen": "../weapons/Genesis Arms Gen-12.png",
+    "stats": {
+      "ergonomia": 75,
+      "punteria": 65,
+      "cadencia_disparo": 80,
+      "retroceso": 60
+    }
+  },
+  {
+    "id": "arma_007",
+    "nombre": "Glock 26",
+    "descripcion": "La Glock 26 es una pistola subcompacta calibre 9mm, ideal para portación oculta y situaciones donde la discreción es vital. John Wick la emplea como arma secundaria de respaldo, oculta en su vestimenta. A pesar de su tamaño reducido, mantiene una precisión notable y una capacidad de fuego respetable. En las primeras entregas, Wick demuestra cómo esta arma puede ser letal en enfrentamientos a corta distancia, sacándola en fracciones de segundo para neutralizar amenazas cercanas.",
+    "peliculas": ["John Wick", "John Wick: Chapter 2"],
+    "imagen": "../weapons/Glock 26.png",
+    "stats": {
+      "ergonomia": 80,
+      "punteria": 70,
+      "cadencia_disparo": 70,
+      "retroceso": 45
+    }
+  },
+  {
+    "id": "arma_008",
+    "nombre": "Glock 34",
+    "descripcion": "La Glock 34 es una pistola semiautomática optimizada para competiciones, con cañón largo que mejora su precisión y control. En 'John Wick: Chapter 2', Wick utiliza una versión personalizada para operaciones en espacios abiertos, combinando velocidad y exactitud en cada disparo. Su capacidad para disparar rápidamente sin comprometer la estabilidad del arma encaja perfectamente con el estilo técnico y agresivo del asesino.",
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Glock 34.png",
+    "stats": {
+      "ergonomia": 85,
+      "punteria": 85,
+      "cadencia_disparo": 75,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "arma_009",
+    "nombre": "Katana",
+    "descripcion": "La katana representa una de las armas más simbólicas del combate cuerpo a cuerpo. Esta hoja japonesa, con filo extremadamente afilado y un diseño balanceado, es utilizada por John Wick en enfrentamientos donde el sigilo y la precisión mortal son esenciales. Su dominio con esta arma resalta su entrenamiento marcial y su capacidad de adaptación, siendo tan efectivo con un arma blanca como con cualquier arma de fuego.",
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Katana.png",
+    "stats": {
+      "ergonomia": 90,
+      "punteria": 95,
+      "cadencia_disparo": 30,
+      "retroceso": 0
+    }
+  },
+  {
+    "id": "arma_010",
+    "nombre": "Kimber Warrior",
+    "descripcion": "La Kimber Warrior es una pistola semiautomática calibre .45 ACP de alto rendimiento. Con una construcción sólida y precisión excepcional, esta arma aparece en 'John Wick: Chapter 2' como parte del arsenal escogido para una misión en Roma. Su diseño táctico permite una manipulación segura y confiable en medio del caos, ideal para situaciones donde cada disparo debe contar.",
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/Kimber Warrior (1).png",
+    "stats": {
+      "ergonomia": 75,
+      "punteria": 80,
+      "cadencia_disparo": 70,
+      "retroceso": 50
+    }
+  },
+  {
+    "id": "arma_011",
+    "nombre": "Cuchillo",
+    "descripcion": "El cuchillo de combate de John Wick es una herramienta letal en manos de un experto. En 'Chapter 3 – Parabellum', lo utiliza para enfrentamientos cuerpo a cuerpo en espacios cerrados, como la memorable escena en la sala de exhibición. Su técnica, veloz y precisa, demuestra cómo incluso una herramienta básica puede convertirse en un arma definitiva con el entrenamiento adecuado. Cada movimiento es una coreografía letal de eficiencia.",
+    "peliculas": ["John Wick: Chapter 3 – Parabellum"],
+    "imagen": "../weapons/Knife.png",
+    "stats": {
+      "ergonomia": 90,
+      "punteria": 90,
+      "cadencia_disparo": 35,
+      "retroceso": 0
+    }
+  },
+  {
+    "id": "arma_012",
+    "nombre": "KRISS Vector",
+    "descripcion": "El KRISS Vector es un subfusil revolucionario conocido por su sistema de retroceso inferior que mejora el control de disparo. En 'John Wick: Chapter 2', Wick lo empuña en una serie de tiroteos rápidos, aprovechando su cadencia de disparo y estabilidad para eliminar múltiples objetivos con una precisión mortal. El diseño futurista del Vector lo convierte en un reflejo de la innovación táctica del protagonista.",
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/KRISS Vector.png",
+    "stats": {
+      "ergonomia": 80,
+      "punteria": 75,
+      "cadencia_disparo": 95,
+      "retroceso": 35
+    }
+  },
+  {
+    "id": "arma_013",
+    "nombre": "KSG",
+    "descripcion": "La Kel-Tec KSG es una escopeta de acción por bombeo con doble tubo de munición, lo que le proporciona una alta capacidad de disparo. En 'Chapter 2', John la utiliza en combate cerrado para imponer dominio a corta distancia. Su diseño compacto, a pesar de su potencia, le permite maniobrar en pasillos y habitaciones, haciendo de cada disparo una sentencia inapelable para sus enemigos.",
+    "peliculas": ["John Wick: Chapter 2"],
+    "imagen": "../weapons/KSG.png",
+    "stats": {
+      "ergonomia": 65,
+      "punteria": 65,
+      "cadencia_disparo": 60,
+      "retroceso": 65
+    }
+  },
+  {
+    "id": "w012",
+    "nombre": "M110",
+    "descripcion": "El M110 es un rifle semiautomático de francotirador usado por Wick para eliminar objetivos a larga distancia con una precisión letal. Su potencia de fuego lo hace ideal para disparos a través de obstáculos o a enemigos bien protegidos. En 'Chapter 4', John lo emplea con calma estratégica, posicionándose en lugares elevados para ejercer control del entorno y proteger su avance.",
+    "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/M110.png",
+    "stats": {
+      "ergonomia": 65,
+      "punteria": 90,
+      "cadencia_disparo": 55,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "w013",
+    "nombre": "M4A1",
+    "descripcion": "Rifle de asalto versátil y potente. Una de las armas más icónicas utilizadas por John Wick.",
+    "peliculas": ["John Wick", "John Wick: Capítulo 2", "John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/M4A1.png",
+    "stats": {
+      "ergonomia": 80,
+      "punteria": 75,
+      "cadencia_disparo": 85,
+      "retroceso": 45
+    }
+  },
+  {
+    "id": "w014",
+    "nombre": "P30 L",
+    "descripcion": "Pistola semiautomática conocida por su ergonomía y precisión. Usada por John Wick en múltiples escenas de acción.",
+    "peliculas": ["John Wick", "John Wick: Capítulo 2"],
+    "imagen": "../weapons/P30 L.png",
+    "stats": {
+      "ergonomia": 85,
+      "punteria": 70,
+      "cadencia_disparo": 90,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "w015",
+    "nombre": "Pit Viper by Taran Tactical",
+    "descripcion": "La Taran Tactical Pit Viper es una pistola de competencia de élite, desarrollada específicamente para ofrecer máxima velocidad, precisión y estabilidad. En 'John Wick: Chapter 4', esta arma se convierte en la favorita de Wick, reflejando la evolución de su estilo de combate: agresivo, técnico y ultra preciso. Su diseño personalizado incluye un gatillo ultrarrápido, compensador de retroceso y cargadores de alta capacidad, permitiendo a John ejecutar secuencias letales sin interrupción.",
+    "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/Pit Viper by Taran Tactical.png",
+    "stats": {
+      "ergonomia": 90,
+      "punteria": 80,
+      "cadencia_disparo": 95,
+      "retroceso": 35
+    }
+  },
+  {
+    "id": "w016",
+    "nombre": "Remington 870",
+    "descripcion": "La Remington 870 es una escopeta de corredera robusta y confiable, ideal para el combate urbano y el control de multitudes. John la utiliza en asaltos de corta distancia, donde su potencia bruta genera una ventaja decisiva. Con cartuchos de alto impacto y una mecánica resistente, es el tipo de arma que refleja la brutalidad y eficacia del protagonista en combates cerrados. Cada disparo con esta escopeta redefine el espacio alrededor de Wick como una zona de muerte controlada.",
+    "peliculas": ["John Wick", "John Wick: Capítulo 2"],
+    "imagen": "../weapons/Remington 870.png",
+    "stats": {
+      "ergonomia": 60,
+      "punteria": 65,
+      "cadencia_disparo": 50,
+      "retroceso": 70
+    }
+  },
+  {
+    "id": "w017",
+    "nombre": "SIG MPX Carbine",
+    "descripcion": "Subfusil semiautomático con diseño modular y capacidad de disparo rápido.",
+    "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG MPX Carbine.png",
+    "stats": {
+      "ergonomia": 80,
+      "punteria": 75,
+      "cadencia_disparo": 85,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "w018",
+    "nombre": "SIG MPX",
+    "descripcion": "El SIG MPX es un subfusil moderno con diseño modular y una de las armas más balanceadas del arsenal de John Wick. Aparece en escenas de combate urbano y asaltos coordinados, donde su precisión y capacidad de disparo sostenido son vitales. Gracias a su bajo retroceso y compatibilidad con accesorios tácticos, Wick lo utiliza para moverse entre blancos múltiples con una fluidez casi coreográfica, reafirmando su estatus como maestro de la guerra urbana.",
+    "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG MPX.png",
+    "stats": {
+      "ergonomia": 85,
+      "punteria": 70,
+      "cadencia_disparo": 88,
+      "retroceso": 35
+    }
+  },
+  {
+    "id": "w019",
+    "nombre": "SIG-Sauer P320",
+    "descripcion": "Pistola semiautomática modular de polímero, destacada por su versatilidad.",
+    "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/SIG-Sauer P320.png",
+    "stats": {
+      "ergonomia": 80,
+      "punteria": 72,
+      "cadencia_disparo": 85,
+      "retroceso": 45
+    }
+  },
+  {
+    "id": "w020",
+    "nombre": "SIG-Sauer P365",
+    "descripcion": "Pistola compacta de gran capacidad, ideal para combate a corta distancia.",
+    "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/SIG-Sauer P365.png",
+    "stats": {
+      "ergonomia": 90,
+      "punteria": 65,
+      "cadencia_disparo": 80,
+      "retroceso": 40
+    }
+  },
+  {
+    "id": "w021",
+    "nombre": "SR-16",
+    "descripcion": "Rifle de asalto semiautomático conocido por su fiabilidad y precisión.",
+    "peliculas": ["John Wick: Capítulo 4"],
+    "imagen": "../weapons/SR-16.png",
+    "stats": {
+      "ergonomia": 75,
+      "punteria": 80,
+      "cadencia_disparo": 78,
+      "retroceso": 50
+    }
+  },
+  {
+    "id": "w022",
+    "nombre": "STI 2011 Combat Master (TTI)",
+    "descripcion": "La STI 2011 Combat Master, modificada por Taran Tactical, es posiblemente la pistola más icónica de la saga, usada en 'John Wick: Chapter 3 – Parabellum'. Diseñada para el combate competitivo, presenta un gatillo extremadamente suave, alta capacidad de cargador y una respuesta inigualable. Wick demuestra su dominio absoluto del arma en secuencias donde cada movimiento es sincronizado con la precisión del arma, convirtiéndola en su extensión natural en combate.",
+    "peliculas": ["John Wick: Capítulo 3 – Parabellum"],
+    "imagen": "../weapons/STI 2011 Combat Master (TTI).png",
+    "stats": {
+      "ergonomia": 92,
+      "punteria": 85,
+      "cadencia_disparo": 95,
+      "retroceso": 30
+    }
+  },
+  {
+    "id": "w023",
+    "nombre": "TTI TR-1 Ultralight",
+    "descripcion": "Rifle de asalto ultraligero personalizado, usado por John Wick por su precisión.",
+    "peliculas": ["John Wick: Capítulo 2"],
+    "imagen": "../weapons/TTI TR-1 Ultralight.png",
+    "stats": {
+      "ergonomia": 88,
+      "punteria": 82,
+      "cadencia_disparo": 90,
+      "retroceso": 38
+    }
+  }
+]
