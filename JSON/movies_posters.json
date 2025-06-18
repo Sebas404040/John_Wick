@@ -2,19 +2,23 @@
     "movies": [
         {
             "poster": "../posters/Poster_JW1.png",
-            "title": "John Wick"
+            "title": "tt2911666"
         },
         {
             "poster": "../posters/Poster_JW2.png",
-            "title": "John Wick: Chapter 2"
+            "title": "tt4425200"
         },
         {
             "poster": "../posters/Poster_JW3.png",
-            "title": "John Wick: Chapter 3 – Parabellum"
+            "title": "tt6146586"
+        },
+        {
+            "poster": "../posters/Poster_JW5.png",
+            "title": "tt7181546"
         },
         {
             "poster": "../posters/Poster_JW4.png",
-            "title": "John Wick: Chapter 4"
+            "title": "tt10366206"
         }
     ]
 }

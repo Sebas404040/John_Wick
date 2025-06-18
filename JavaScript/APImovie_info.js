@@ -7,7 +7,7 @@ if (movieTitle) {
 
 function fetchMovieFromOMDB(title) {
     const apiKey = "2b1f33f5";
-    const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(title)}`;
+    const url = `https://www.omdbapi.com/?apikey=${apiKey}&i=${encodeURIComponent(title)}`;
 
     fetch(url)
         .then(response => response.json())

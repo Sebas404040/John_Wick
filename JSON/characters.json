@@ -20,7 +20,9 @@
       "Pistola táctica"
     ],
     "description": "Akira es la hija de Shimazu Koji, gerente del Continental Osaka...",
-    "movies": ["John Wick 4"]
+    "movies": [
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-015",
@@ -44,7 +46,11 @@
       "Armas improvisadas"
     ],
     "description": "El Bowery King es una figura enigmática, temida y respetada en igual medida...",
-    "movies": ["John Wick 2", "John Wick 3", "John Wick 4"]
+    "movies": [
+      "John Wick 2",
+      "John Wick 3",
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-016",
@@ -69,7 +75,9 @@
       "Dagas ocultas"
     ],
     "description": "Caine no necesita ver para matar. Ciego, pero letal, es una de las armas más refinadas del High Table...",
-    "movies": ["John Wick 4"]
+    "movies": [
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-017",
@@ -93,7 +101,9 @@
       "Armas improvisadas"
     ],
     "description": "Cassian fue guardaespaldas de Gianna D'Antonio y uno de los asesinos más formidables de Roma...",
-    "movies": ["John Wick 2"]
+    "movies": [
+      "John Wick 2"
+    ]
   },
   {
     "id": "jw-018",
@@ -117,7 +127,12 @@
       "Rifles de defensa interior"
     ],
     "description": "Charon no era solo un conserje. Era el guardián silencioso del equilibrio en el Continental de Nueva York...",
-    "movies": ["John Wick 1", "John Wick 2", "John Wick 3", "John Wick 4"]
+    "movies": [
+      "John Wick 1",
+      "John Wick 2",
+      "John Wick 3",
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-019",
@@ -139,7 +154,10 @@
       "Guardias armados"
     ],
     "description": "El Anciano, conocido como The Elder, es la figura más enigmática y poderosa del universo de John Wick...",
-    "movies": ["John Wick 3", "John Wick 4"]
+    "movies": [
+      "John Wick 3",
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-020",
@@ -160,7 +178,9 @@
       "Armas de sus guardaespaldas"
     ],
     "description": "Josef Tarasov es el catalizador de toda la saga de John Wick...",
-    "movies": ["John Wick 1"]
+    "movies": [
+      "John Wick 1"
+    ]
   },
   {
     "id": "jw-021",
@@ -183,7 +203,9 @@
       "Armas tradicionales japonesas"
     ],
     "description": "Koji Shimazu es el honorable gerente del Hotel Continental en Osaka...",
-    "movies": ["John Wick 4"]
+    "movies": [
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-022",
@@ -205,7 +227,9 @@
       "Poder institucional"
     ],
     "description": "La Adjudicadora es una figura fría, meticulosa y absolutamente leal a la Alta Mesa...",
-    "movies": ["John Wick 3"]
+    "movies": [
+      "John Wick 3"
+    ]
   },
   {
     "id": "jw-023",
@@ -229,7 +253,9 @@
       "Cuchillo de combate"
     ],
     "description": "Marcus fue un antiguo asesino profesional y uno de los pocos que podía igualar la precisión de John Wick...",
-    "movies": ["John Wick 1"]
+    "movies": [
+      "John Wick 1"
+    ]
   },
   {
     "id": "jw-024",
@@ -251,7 +277,9 @@
       "Poder de la Alta Mesa"
     ],
     "description": "El Marqués Vincent de Gramont es un miembro de alto rango de la Alta Mesa...",
-    "movies": ["John Wick 4"]
+    "movies": [
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-025",
@@ -275,7 +303,9 @@
       "Perro entrenado en combate"
     ],
     "description": "Mr. Nobody, también llamado 'El Rastreador', es un misterioso cazarrecompensas...",
-    "movies": ["John Wick 4"]
+    "movies": [
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-026",
@@ -298,7 +328,9 @@
       "Silenciador"
     ],
     "description": "Perkins es una asesina a sueldo que aparece en *John Wick (2014)*...",
-    "movies": ["John Wick 1"]
+    "movies": [
+      "John Wick 1"
+    ]
   },
   {
     "id": "jw-027",
@@ -321,7 +353,9 @@
       "Tácticas de combate cuerpo a cuerpo"
     ],
     "description": "La Directora es la figura principal de la Ruska Roma...",
-    "movies": ["John Wick 3"]
+    "movies": [
+      "John Wick 3"
+    ]
   },
   {
     "id": "jw-028",
@@ -343,7 +377,9 @@
       "Guardias privados"
     ],
     "description": "Santino D'Antonio es el antagonista principal en *John Wick: Capítulo 2*...",
-    "movies": ["John Wick 2"]
+    "movies": [
+      "John Wick 2"
+    ]
   },
   {
     "id": "jw-029",
@@ -366,7 +402,9 @@
       "Arsenal oculto del Continental"
     ],
     "description": "Sofia Al-Azwar aparece en *John Wick: Capítulo 3 – Parabellum*...",
-    "movies": ["John Wick 3"]
+    "movies": [
+      "John Wick 3"
+    ]
   },
   {
     "id": "jw-030",
@@ -388,7 +426,9 @@
       "Ejército privado"
     ],
     "description": "Viggo Tarasov es el antagonista principal de *John Wick (2014)*...",
-    "movies": ["John Wick 1"]
+    "movies": [
+      "John Wick 1"
+    ]
   },
   {
     "id": "jw-031",
@@ -411,7 +451,12 @@
       "Pistola de bolsillo"
     ],
     "description": "Winston es el sofisticado y enigmático gerente del Continental en Nueva York...",
-    "movies": ["John Wick 1", "John Wick 2", "John Wick 3", "John Wick 4"]
+    "movies": [
+      "John Wick 1",
+      "John Wick 2",
+      "John Wick 3",
+      "John Wick 4"
+    ]
   },
   {
     "id": "jw-032",
@@ -434,7 +479,34 @@
       "Técnicas ninja"
     ],
     "description": "Zero es el asesino principal contratado por la Alta Mesa en *John Wick: Capítulo 3 – Parabellum*...",
-    "movies": ["John Wick 3"]
+    "movies": [
+      "John Wick 3"
+    ]
+  },
+  {
+    "id": "jw-033",
+    "imagen": "../photos/Eve.png",
+    "name": "Eve",
+    "alias": "La Ballerina",
+    "occupation": "Asesina entrenada",
+    "affiliation": "Ruska Roma",
+    "nationality": "Cubana-estadounidense",
+    "status": "Viva",
+    "skills": [
+      "Ballet letal (danza-combate)",
+      "Tiro de precisión",
+      "Sigilo y evasión",
+      "Técnicas de interrogación",
+      "Adaptabilidad táctica"
+    ],
+    "weapons": [
+      "Pistola SIG Sauer P365",
+      "Cuchillos ocultos de danza",
+      "Explosivos improvisados"
+    ],
+    "description": "Eve fue criada y entrenada por la Ruska Roma, donde su destreza en el ballet fue moldeada para convertirse en un método mortal de combate. Tras perder a su familia en circunstancias sospechosas, Eve emprende una misión de venganza implacable, enfrentando a poderosas facciones dentro del mundo clandestino. Su precisión, agilidad y determinación la convierten en una fuerza temida incluso entre los asesinos más veteranos.",
+    "movies": [
+      "Ballerina"
+    ]
   }
 ]
-
