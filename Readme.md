@@ -1,40 +1,46 @@
-#  John Wick Fan Page
+# 🧨 John Wick Fan Page
 
-Una **fan page cinematográfica** dedicada a uno de los personajes más icónicos del cine de acción: **John Wick**. Este proyecto está desarrollado con **HTML** y **CSS**, incluye efectos visuales como fondo animado de lluvia, frases célebres, y un diseño inspirado en la estética oscura y elegante de la saga.
-
----
-
-## 🎯 Características
-
-- 💻 Diseño responsivo y adaptado para dispositivos móviles.
-- 🖼️ Hero page con fondo personalizado de John Wick.
-- ☔ Efecto de lluvia animado con CSS.
-- 📖 Sección de biografía del personaje.
-- 🎬 Galería de películas con detalles.
-- 🔫 Frases icónicas del personaje.
-- 🧠 Curiosidades sobre el universo John Wick.
+Una fan page interactiva, visual y completamente responsiva dedicada al universo cinematográfico de **John Wick**. Desde su historia hasta los personajes, películas y arsenal, esta web reúne todo lo que un verdadero fan necesita.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🎬 Características Principales
 
-- HTML5
-- CSS3 (Flexbox, Animaciones, Media Queries)
-- Tipografías de Google Fonts (Titillium Web)
-- Imágenes y efectos visuales generados de forma personalizada
-- Javascript
+✅ **Biografía Detallada**  
+✅ **Listado Completo de Películas**  
+✅ **Base de Datos de Personajes**  
+✅ **Armería con estadísticas visuales**  
+✅ **Buscador + Filtros por Película**  
+✅ **Componentes personalizados en JavaScript**  
+✅ **Diseño optimizado para dispositivos móviles**
+
+---
+
+## 📁 Estructura del Proyecto
+
+
 
 ---
 ```
-john-wick-fanpage/
+├── 📂 CSS/
+│ └── HeroStyle.css
+├── 📂 JavaScript/
+│ ├── characters.js
+│ ├── weapons.js
+│ ├── john_wick_data.js
+│ └── [componentes personalizados]
+├── 📂 JSON/
+│ ├── Characters.json
+│ ├── Weapons.json
+│ └── Movies.json
+├── 📂 photos/ (biografía)
+├── 📂 weapons/ (imágenes de armas)
+├── 📂 icons/ (iconos generales)
 ├── index.html
-├── css/
-│   └── style.css
-├── img/
-│   └── john-wick-bg.jpg
-├── fonts/
-├── README.md
-└── preview.png
+├── history_page.html
+├── movies_page.html
+├── weapons_page.html
+└── characters_page.html
 
 ```
 
@@ -82,4 +88,32 @@ git clone https://github.com/tu-usuario/john-wick-fanpage.git
 ![Home ](./Readme_images/Character%20info-8.png)
 
 
+---
 
+## 🛠️ Tecnologías Utilizadas
+
+- **HTML5**
+- **CSS3** (Flexbox + Media Queries)
+- **JavaScript moderno** (Módulos, Fetch API, Componentes)
+- **JSON** para la base de datos dinámica
+- **Diseño responsivo** (Mobile-first)
+- **Sombras, efectos neon y temas oscuros personalizados**
+
+---
+
+## 🔍 Funcionalidades Avanzadas
+
+- 🔎 **Buscador en tiempo real** por personaje o arma
+- 🎯 **Filtro por película** en secciones de armas y personajes
+- 📊 **Visualización de estadísticas** (ergonomía, puntería, cadencia, retroceso)
+- 🧩 **Carga dinámica desde archivos JSON**
+- 🧱 **Componentes reutilizables personalizados** (`<weapon-easy-element>`, etc.)
+
+---
+
+## 🧠 Autor
+Joan Sebastian Gomez Serrano (FUERZA G)
+Diseñador y desarrollador web fan de John Wick 💀🔫
+
+## 🌟 Inspiración
+Este proyecto fue creado con la intención de rendir homenaje al icónico personaje interpretado por Keanu Reeves, explorando su historia, aliados, enemigos y herramientas en un solo lugar.
